@@ -1,0 +1,75 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0544A5">
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bYoNunca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="#FEFEFE"
+            android:text="Yo nunca"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/bPreferir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="#FEFEFE"
+            android:text="Qué prefieres"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/bPrejuicios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="#FEFEFE"
+            android:text="Prejuicios"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/bBotella"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="#FEFEFE"
+            android:text="Botella"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/bVerdadoReto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FEFEFE"
+            android:text="Verdad o Reto"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</ScrollView>
