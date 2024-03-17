@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,17 +9,54 @@
     android:layout_margin="30dp"
     tools:context=".ActivityYoNunca">
 
-    <!-- ViewPager (Tarjetas) -->
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/vpYoNunca"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        tools:ignore="SpeakableTextPresentCheck" />
 
-    <!-- RecyclerView (Lista) -->
+    <Button
+        android:id="@+id/bYoNuncaCambiarVista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/b_estilo"
+        android:text="Cambiar Vista"
+        android:textColor="#ffffff" />
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/toggleButtonGroup"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:singleSelection="true">
+        <Button
+            android:id="@+id/bYoNuncaTarjeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/menu_cuadrado_24x24"
+            style="?attr/materialButtonOutlinedStyle"
+            />
+
+        <Button
+            android:id="@+id/bYoNuncaLista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/menu_linea_24x24"
+            style="?attr/materialButtonOutlinedStyle"
+            />
+</com.google.android.material.button.MaterialButtonToggleGroup>
+
+
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
+        android:id="@+id/rvYoNunca"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone" />
+        android:layout_marginTop="16dp"
+        android:paddingTop="60dp"
+        android:visibility="gone" >
 
+    </androidx.recyclerview.widget.RecyclerView>
 </FrameLayout>
