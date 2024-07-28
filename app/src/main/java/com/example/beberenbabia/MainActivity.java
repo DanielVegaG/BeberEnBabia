@@ -2,11 +2,13 @@ package com.example.beberenbabia;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.beberenbabia.cincosegundos.ActivityCincoSegundos;
 import com.example.beberenbabia.preferir.ActivityPreferir;
 import com.example.beberenbabia.prejuicios.ActivityPrejuicios;
 import com.example.beberenbabia.yonunca.ActivityYoNunca;
@@ -44,6 +46,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 // Crear un Intent para abrir la nueva actividad
                 Intent intent = new Intent(MainActivity.this, ActivityPrejuicios.class);
+                startActivity(intent);
+            }
+        });
+
+        Button bCincoSegundos = findViewById(R.id.bCincoSegundos);
+        bCincoSegundos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Crear un Intent para abrir la nueva actividad
+                Intent intent = new Intent(MainActivity.this, ActivityCincoSegundos.class);
                 startActivity(intent);
             }
         });
