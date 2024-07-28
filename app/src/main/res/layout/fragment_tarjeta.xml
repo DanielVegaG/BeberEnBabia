@@ -3,18 +3,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_grey"
     tools:context=".yonunca.TarjetaFragment">
 
-    <!-- Contenido de la tarjeta -->
-    <TextView
-        android:id="@+id/preguntaTextView"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:textColor="@color/black"
+        android:orientation="vertical"
         android:padding="16dp"
-        android:gravity="center"
-        android:text="¿Pregunta aquí?" />
+        android:background="@drawable/card_background"
+        android:layout_margin="16dp"
+        android:elevation="8dp"
+        android:clipToPadding="false"
+        android:outlineSpotShadowColor="#000000"
+        android:clipToOutline="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:foregroundGravity="center">
 
+        <TextView
+            android:id="@+id/preguntaTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="¿Pregunta aquí?" />
+    </LinearLayout>
 </FrameLayout>

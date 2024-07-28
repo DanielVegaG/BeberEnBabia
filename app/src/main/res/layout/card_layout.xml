@@ -5,7 +5,6 @@
     android:padding="16dp"
     android:background="@drawable/card_background"
     android:layout_margin="8dp"
-    android:backgroundTint="#FFFFFF"
     android:elevation="8dp"
     android:clipToPadding="false"
     android:outlineSpotShadowColor="#000000"

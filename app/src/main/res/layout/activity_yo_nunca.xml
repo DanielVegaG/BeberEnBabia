@@ -5,33 +5,33 @@
     android:id="@+id/container_yo_nunca"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center_vertical"
     tools:context=".yonunca.ActivityYoNunca"
     android:background="@drawable/background_gradient">
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/vpYoNunca"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="300dp"
         android:layout_gravity="center"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_margin="20dp"
         tools:ignore="SpeakableTextPresentCheck"
         />
 
-
     <com.google.android.material.button.MaterialButtonToggleGroup
         android:id="@+id/toggleButtonGroup"
-        android:layout_height="wrap_content"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="20dp"
         app:singleSelection="true">
+
         <Button
             android:id="@+id/bYoNuncaTarjeta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:icon="@drawable/menu_cuadrado_24x24"
             style="?attr/materialButtonOutlinedStyle"
+            android:padding="8dp"
             />
 
         <Button
@@ -40,9 +40,9 @@
             android:layout_height="wrap_content"
             app:icon="@drawable/menu_linea_24x24"
             style="?attr/materialButtonOutlinedStyle"
+            android:padding="8dp"
             />
-</com.google.android.material.button.MaterialButtonToggleGroup>
-
+    </com.google.android.material.button.MaterialButtonToggleGroup>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvYoNunca"
@@ -50,7 +50,6 @@
         android:layout_height="match_parent"
         android:layout_marginTop="16dp"
         android:paddingTop="60dp"
-        android:visibility="gone" >
+        android:visibility="gone" />
 
-    </androidx.recyclerview.widget.RecyclerView>
 </FrameLayout>
