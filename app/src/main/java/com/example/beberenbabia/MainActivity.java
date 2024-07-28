@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.beberenbabia.asesino.ActivityAsesinoJugadores;
 import com.example.beberenbabia.cincosegundos.ActivityCincoSegundos;
 import com.example.beberenbabia.preferir.ActivityPreferir;
 import com.example.beberenbabia.prejuicios.ActivityPrejuicios;
@@ -56,6 +57,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 // Crear un Intent para abrir la nueva actividad
                 Intent intent = new Intent(MainActivity.this, ActivityCincoSegundos.class);
+                startActivity(intent);
+            }
+        });
+
+        Button bAsesino = findViewById(R.id.bAsesino);
+        bAsesino.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Crear un Intent para abrir la nueva actividad
+                Intent intent = new Intent(MainActivity.this, ActivityAsesinoJugadores.class);
                 startActivity(intent);
             }
         });
