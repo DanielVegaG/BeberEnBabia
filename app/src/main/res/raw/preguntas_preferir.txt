@@ -8,9 +8,7 @@ Viajar al pasado                          o   Viajar al futuro
 Ser fuerte como Hulk                      o   Ser inteligente como Iron Man
 Vivir en un mundo de fantasía             o   Vivir en un mundo de ciencia ficción
 Tener una máquina del tiempo personal     o   Tener una varita mágica
-Ser invisible en la oscuridad             o   Volverse invisible durante 10 minutos a voluntad
 Tener la capacidad de leer la mente       o   Tener la habilidad de ver el futuro
-Vivir en un mundo sin internet            o   Vivir en un mundo sin televisión
 Ser un genio en matemáticas               o   Ser un genio en música
 Ser un experto en todas las artes marciales   o   Ser un experto en todas las lenguas extranjeras
 Tener una vida larga y aburrida           o   Tener una vida corta pero emocionante
@@ -19,16 +17,15 @@ Tener un talento sobrenatural             o   Ser extremadamente atractivo físi
 Tener la capacidad de hablar con los animales o   Tener la capacidad de hablar con los muertos
 Ver 10 minutos en el futuro                  o   Ver 150 años en el futuro
 Tener telequinesis (mover cosas con la mente) o   Tener telepatía (leer mentes)
-Bailar cada canción que escuchas o cantar cada canción que escuchas
+Bailar cada canción que escuchas o Cantar cada canción que escuchas
 Encontrar el amor verdadero hoy             o   Ganar la lotería el próximo año
 Estar en la cárcel durante cinco años      o   Estar en coma durante una década
 Durar 10 años más con tu pareja             o   Tener una noche con tu amor platónico famoso
 Que todos conozcan tus pensamientos        o   Que todos tengan acceso a tu historial de Internet
 Perder la vista                             o   Perder tus recuerdos
-Ser omnisciente                    o   Ser omnipresente
+Ser omnisciente (saberlo todo)                   o   Ser omnipresente (estar en todos lados)
 Renunciar al aire acondicionado y la calefacción de por vida o   Renunciar a Internet de por vida
-Nadar en una piscina llena de Nutella       o   Nadar en una piscina llena de jarabe de arce
-Trabajar bajo un sol caliente o Trabajar bajo un frío extremo
+Trabajar bajo un calor extremo o Trabajar bajo un frío extremo
 Comprar 10 cosas que no necesitas cada vez que vas de compras o  Olvidar siempre lo que necesitas cuando vas a la tienda
 Nunca poder salir durante el día           o   Nunca poder salir por la noche
 Tener un criado personal                  o   Tener un chef personal
@@ -36,26 +33,29 @@ Medir 3m                       o   Medir 20cm
 Ser un extra en una película ganadora del Oscar o   Ser el protagonista de un fracaso de taquilla
 Comunicarte solo con emojis               o   No poder enviar mensajes de texto nunca más
 Ser de la realeza hace 1,000 años               o   Ser una persona promedio hoy
-Descansar en la piscina               o   Descansar en la playa
 Usar los mismos calcetines durante un mes  o   Usar la misma ropa interior durante una semana
-Abrazar a un koala o pasar el rato con un panda
-Siempre tener mal olor y no saberlo      o   Siempre notar el mal olor de los demás
+Nunca saber si tienes mal olor      o   Siempre notar el mal olor de los demás
 Siempre llegar 10 minutos tarde          o   Siempre llegar 20 minutos temprano
 Pasar una semana en el bosque            o   Pasar una noche en una casa encantada
 Encontrar una rata en tu cocina         o   Encontrar una cucaracha en tu cama
-Tener un botón de pausa en tu vida o un botón de rebobinado en tu vida
-Siempre tener la batería de teléfono completamente cargada o Siempre tener el tanque de gasolina lleno
+Tener un botón de pausa en tu vida o Tener un botón de rebobinado en tu vida
 Perder todos tus dientes o Perder un día de tu vida cada vez que besas a alguien
 Beber de un váter o Orinar en una caja de arena
 Ser obligado a repetir el mismo día durante un año o Quitarte 3 años de vida
-Nunca volver a comer sandía o Siempre comer sandía en cada comida
-Obtener un corte de papel cada vez que pasas una página o Morderte la lengua cada vez que comes
+Cada vez que pasas una página cortarte con el papel o Morderte la lengua cada vez que comes
 Dormir demasiado todos los días durante una semana o No dormir en absoluto durante cuatro días
 Morir en 20 años sin arrepentimientos o vivir hasta los 100 con muchos arrepentimientos
-Tomar gin con Ryan Reynolds o Tomar tequila con Dwayne "The Rock" Johnson
 Quedar atrapado en medio de una pelea de comida o Quedar atrapado en una pelea de globos de agua
-Ir al trabajo en tacones o Conducir hacia atrás al trabajo
+Ir al trabajo en tacones o Ir al trabajo conduciendo marcha atrás
 Pasar un año en guerra o Pasar un año en prisión
 Morir antes que tu pareja o Morir después que tu pareja
 Tener un hijo cada año durante 20 años o Nunca tener hijos
 Tomar selfies increíbles pero verte terrible en todas las demás fotos o Ser fotogénico en todas partes excepto en tus selfies
+Poder respirar bajo el agua o Poder hablar con los animales
+Tener un trío o Tener sexo en público
+Que toda tu familia sepa tu secreto más oscuro o Que toda tu familia sepa el resto de tus secretos
+Que tus padres te pillen haciéndolo o Que un grupo de desconocidos te pille haciéndolo
+Dejar de tener sexo por un año o No volver a tomar postre nunca más
+Ir a una cita a ciegas con dos deconocidos o Llegar a una fiesta y que de repente todo el mundo esté desnudo
+Tener dedos tan largos como tus piernas o Tener piernas tan cortas como tus dedos
+Estar desnudo todo el tiempo o Nunca salir de tu casa de nuevo?

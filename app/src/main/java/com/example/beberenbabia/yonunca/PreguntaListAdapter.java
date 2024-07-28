@@ -1,10 +1,13 @@
-package com.example.beberenbabia;
+package com.example.beberenbabia.yonunca;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.beberenbabia.R;
+
 import java.util.List;
 
 public class PreguntaListAdapter extends RecyclerView.Adapter<PreguntaListAdapter.ViewHolder> {

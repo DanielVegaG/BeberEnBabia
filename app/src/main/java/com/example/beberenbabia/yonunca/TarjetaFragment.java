@@ -1,4 +1,4 @@
-package com.example.beberenbabia;
+package com.example.beberenbabia.yonunca;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
+
+import com.example.beberenbabia.R;
 
 public class TarjetaFragment extends Fragment {
     private String pregunta;
@@ -32,7 +34,6 @@ public class TarjetaFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_tarjeta, container, false);
         // Configura la vista para mostrar la pregunta en la tarjeta
-        // Por ejemplo, actualiza un TextView con la pregunta
         TextView preguntaTextView = view.findViewById(R.id.preguntaTextView);
         preguntaTextView.setText(pregunta);
         return view;

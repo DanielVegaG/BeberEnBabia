@@ -4,7 +4,7 @@
     android:id="@+id/scroll_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0544A5"
+    android:background="@drawable/background_gradient"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -13,66 +13,65 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_margin="30dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Bienvenido a la App"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/bYoNunca"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="50dp"
-            android:backgroundTint="#FEFEFE"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_background"
             android:text="Yo nunca"
             android:textAllCaps="false"
-            android:textColor="#000000"
-            android:textSize="34sp"
-            android:textStyle="italic" />
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <Button
-            android:id="@+id/bPreferir"
+            android:id="@+id/bPrefieres"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="50dp"
-            android:backgroundTint="#FEFEFE"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_background"
             android:text="Qué prefieres"
             android:textAllCaps="false"
-            android:textColor="#000000"
-            android:textSize="34sp"
-            android:textStyle="italic" />
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/bPrejuicios"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="50dp"
-            android:backgroundTint="#FEFEFE"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_background"
             android:text="Prejuicios"
             android:textAllCaps="false"
-            android:textColor="#000000"
-            android:textSize="34sp"
-            android:textStyle="italic" />
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <Button
-            android:id="@+id/bBotella"
+            android:id="@+id/bRuleta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="50dp"
-            android:backgroundTint="#FEFEFE"
-            android:text="Botella"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_background"
+            android:text="Ruleta"
             android:textAllCaps="false"
-            android:textColor="#000000"
-            android:textSize="34sp"
-            android:textStyle="italic" />
-
-        <Button
-            android:id="@+id/bVerdadoReto"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#FEFEFE"
-            android:text="Verdad o Reto"
-            android:textAllCaps="false"
-            android:textColor="#000000"
-            android:textSize="34sp"
-            android:textStyle="italic" />
-
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
     </LinearLayout>
 </ScrollView>

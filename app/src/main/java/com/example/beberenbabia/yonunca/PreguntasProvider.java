@@ -1,6 +1,9 @@
-package com.example.beberenbabia;
+package com.example.beberenbabia.yonunca;
 
 import android.content.Context;
+
+import com.example.beberenbabia.R;
+
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -16,7 +19,7 @@ public class PreguntasProvider {
             preguntas = new ArrayList<>();
             try {
                 // Obtén el InputStream del archivo de texto desde el directorio res/raw
-                InputStream inputStream = context.getResources().openRawResource(R.raw.preguntas);
+                InputStream inputStream = context.getResources().openRawResource(R.raw.preguntas_yo_nunca);
 
                 // Lee el archivo línea por línea y agrega cada línea a la lista de preguntas
                 BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));

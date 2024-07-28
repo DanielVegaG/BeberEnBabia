@@ -2,12 +2,12 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/container"
+    android:id="@+id/container_yo_nunca"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_vertical"
     android:layout_margin="30dp"
-    tools:context=".ActivityYoNunca">
+    tools:context=".yonunca.ActivityYoNunca">
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/vpYoNunca"
@@ -17,15 +17,6 @@
         android:layout_marginBottom="20dp"
         tools:ignore="SpeakableTextPresentCheck" />
 
-    <Button
-        android:id="@+id/bYoNuncaCambiarVista"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="300dp"
-        android:background="@drawable/b_estilo"
-        android:text="Cambiar Vista"
-        android:textColor="#ffffff" />
 
     <com.google.android.material.button.MaterialButtonToggleGroup
         android:id="@+id/toggleButtonGroup"

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/light_grey"
-    tools:context=".TarjetaFragment">
+    tools:context=".yonunca.TarjetaFragment">
 
     <!-- Contenido de la tarjeta -->
     <TextView
@@ -15,6 +15,6 @@
         android:textColor="@color/black"
         android:padding="16dp"
         android:gravity="center"
-        android:text="¿Pregunta aquí?" /> <!-- Esta será remplazada dinámicamente -->
+        android:text="¿Pregunta aquí?" />
 
 </FrameLayout>
