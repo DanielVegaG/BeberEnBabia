@@ -7,7 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.beberenbabia.preferir.ActivityPreferir2;
+import com.example.beberenbabia.preferir.ActivityPreferir;
+import com.example.beberenbabia.prejuicios.ActivityPrejuicios;
 import com.example.beberenbabia.yonunca.ActivityYoNunca;
 
 public class MainActivity extends AppCompatActivity {
@@ -32,7 +33,17 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Crear un Intent para abrir la nueva actividad
-                Intent intent = new Intent(MainActivity.this, ActivityPreferir2.class);
+                Intent intent = new Intent(MainActivity.this, ActivityPreferir.class);
+                startActivity(intent);
+            }
+        });
+
+        Button bPrejuicios = findViewById(R.id.bPrejuicios);
+        bPrejuicios.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Crear un Intent para abrir la nueva actividad
+                Intent intent = new Intent(MainActivity.this, ActivityPrejuicios.class);
                 startActivity(intent);
             }
         });

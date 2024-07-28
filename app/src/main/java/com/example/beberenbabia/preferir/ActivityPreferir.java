@@ -3,7 +3,6 @@ package com.example.beberenbabia.preferir;
 import android.os.Bundle;
 
 import android.content.res.Resources;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class ActivityPreferir2 extends AppCompatActivity {
+public class ActivityPreferir extends AppCompatActivity {
 
     private Button buttonOption1, buttonOption2;
     private List<String[]> preguntas;
@@ -27,7 +26,7 @@ public class ActivityPreferir2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_preferir2);
+        setContentView(R.layout.activity_preferir);
 
         // Inicializar vistas
         buttonOption1 = findViewById(R.id.buttonOption1);

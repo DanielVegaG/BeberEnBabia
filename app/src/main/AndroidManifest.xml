@@ -14,7 +14,10 @@
         android:theme="@style/Theme.BeberEnBabia"
         tools:targetApi="31">
         <activity
-            android:name=".preferir.ActivityPreferir2"
+            android:name=".prejuicios.ActivityPrejuicios"
+            android:exported="false" />
+        <activity
+            android:name=".preferir.ActivityPreferir"
             android:exported="false" />
         <activity
             android:name=".yonunca.ActivityYoNunca"
