@@ -10,6 +10,7 @@ import android.widget.Button;
 
 import com.example.beberenbabia.asesino.ActivityAsesinoJugadores;
 import com.example.beberenbabia.cincosegundos.ActivityCincoSegundos;
+import com.example.beberenbabia.hombreslobo.ActivityHombresLoboJugadores;
 import com.example.beberenbabia.preferir.ActivityPreferir;
 import com.example.beberenbabia.prejuicios.ActivityPrejuicios;
 import com.example.beberenbabia.yonunca.ActivityYoNunca;
@@ -67,6 +68,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 // Crear un Intent para abrir la nueva actividad
                 Intent intent = new Intent(MainActivity.this, ActivityAsesinoJugadores.class);
+                startActivity(intent);
+            }
+        });
+
+        Button bHombresLobo = findViewById(R.id.bHombresLobo);
+        bHombresLobo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Crear un Intent para abrir la nueva actividad
+                Intent intent = new Intent(MainActivity.this, ActivityHombresLoboJugadores.class);
                 startActivity(intent);
             }
         });

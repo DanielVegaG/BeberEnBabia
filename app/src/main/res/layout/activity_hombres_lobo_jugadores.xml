@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient"
+    tools:context=".hombreslobo.ActivityHombresLoboJugadores">
+
+    <TextView
+        android:id="@+id/tvNumJugadoresLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número de jugadores:"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnDecrement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/tvNumJugadores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:layout_marginHorizontal="16dp" />
+
+        <Button
+            android:id="@+id/btnIncrement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNumLobosLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número de Hombres Lobo:"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnDecrementLobos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/tvNumLobos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:layout_marginHorizontal="16dp" />
+
+        <Button
+            android:id="@+id/btnIncrementLobos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+    </LinearLayout>
+
+    <!--Narrador-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tvNumNarradorLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Incluir al narrador?"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/switchNarrador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="20dp" />
+
+    </LinearLayout>
+
+    <!--Bruja-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tvNumBrujaLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Incluir a la bruja?"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/switchBruja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="20dp" />
+
+    </LinearLayout>
+
+    <!--Cazador-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tvNumCazadorLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Incluir al cazador?"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/switchCazador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="20dp" />
+
+    </LinearLayout>
+
+    <!--Cupido-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tvNumCupidoLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Incluir a Cupido?"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/switchCupido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="20dp" />
+    </LinearLayout>
+
+    <!--Niña-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tvNumNinaLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Incluir a la niña?"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/switchNina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="20dp" />
+
+    </LinearLayout>
+
+    <!--Vidente-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tvNumVidenteLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Incluir al vidente?"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/switchVidente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="20dp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnEmpezarPartida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empezar partida"
+        android:layout_marginTop="24dp" />
+</LinearLayout>
